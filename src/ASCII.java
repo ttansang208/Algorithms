@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ASCII {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Nhap vao ky tu");
 		Character key = scanner.nextLine().charAt(0);
@@ -15,8 +16,7 @@ public class ASCII {
 		convert(key,num);
 	}
 
-	static Character convert(Character key, int num) {		
-		int value = num;
+	static Character convert(Character key, int num) {				
 		key = (char) num;
 		return key;
 	}

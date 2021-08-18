@@ -22,6 +22,7 @@ public class BinarySearch1 {
 	
 	public static void main(String[] args) {
 		int[] arr = new int [1000];
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Nhap gia tri cac phan tu");
 		for( int i = 990 ; i < arr.length; i ++) {			

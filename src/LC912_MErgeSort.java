@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class LC912_MErgeSort {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		LC912_MErgeSort x = new LC912_MErgeSort();
 		int[] a= {1,3,5};
